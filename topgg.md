@@ -10,6 +10,8 @@ We strive to make Acoustic not only the most enjoyable bot, but also the most pe
 
 Acoustic doesn't compromise on sound quality. We deliver the the highest bitrate that Discord will allow. Because of this, people are choosing Acoustic over other offerings simply because it delivers superior sound. It's the right choice for Discord audiophiles everywhere.
 
+## We add new stuff every day so this list will change constantly! New updates will be posted in our [Support Server](https://discord.gg/FFJ4hJHRDh). Feel free to join and have some fun.
+
 ## Music
 
 | Command       | Description                                                         | Usage                         |
@@ -24,7 +26,7 @@ Acoustic doesn't compromise on sound quality. We deliver the the highest bitrate
 | Remove        | Remove song(s) from the queue.                                      | ~emove \<position\>           |
 | Resume        | Resumes the song if paused.                                         | ~resume                       |
 | Searchsong    | Searches for a song.                                                | ~searchsong \<Song\>          |
-| Seek          | Goes to a particular time.                                          | ~seek \<Time\>                |
+| Seek          | Goes to a particular time.                                          | ~seek \<time\>                |
 | Shuffle       | Shuffles up the queue.                                              | ~shuffle                      |
 | Volume        | Change the volume of the song.                                      | ~volume \<Number\>            |
 | Custom        | Adds a song to the server playlist                                  | ~mycustom add \<link\>        |
@@ -37,7 +39,7 @@ Acoustic doesn't compromise on sound quality. We deliver the the highest bitrate
 | Playskip      | Skips the current song and goes to the song you choose in the queue | ~playskip \<song number\>     |
 | Removetrack   | Removes a certain song from the queue.                              | ~rt \<song number\>           |
 | Replay        | Replays the current song.                                           | ~replay                       |
-| Rewind        | Goes back to a certain time in the song                             | ~rewind \<Time\>              |
+| Rewind        | Goes back to a certain time in the song                             | ~rewind \<time\>              |
 | Searchrelated | Searches for similar songs in the current track and lets you pick   | ~mycustom add \<link\>        |
 | Skip          | Skips to the next song in the queue.                                | ~skip                         |
 | Status        | Displays the length and number of items in the queue                | ~status                       |
@@ -93,3 +95,27 @@ Acoustic doesn't compromise on sound quality. We deliver the the highest bitrate
 | WikiHow     | Guess the title of a WikiHow article based on the image. If you guess right, then you get money. | ~wikihow                            |
 | Withdraw    | Withdraws money from your vault.                                                                 | ~withdraw                           |
 | Work        | Get a job and start working to earn money.                                                       | ~work \<get> \<id> `Then use ~work` |
+
+## Setup
+
+| Command       | Description                                                       | Usage                      |
+| ------------- | ----------------------------------------------------------------- | -------------------------- |
+| Addbotchat    | Lets you set channels that the bot can listen to (optional)       | ~addbotchat \<#channel>    |
+| Removebotchat | Removes the bot chat.                                             | ~removebotchat \<#channel> |
+| AddDJ         | Adds a DJ Role so only those who have it can use the bot.         | ~adddj \<@role>            |
+| Deletedj      | Removes the DJ role.                                              | ~deletedj \<@role>         |
+| Prefix        | Allows you to change the prefix from `~` to whateverr you'd like. | ~prefix \<desired prefix>  |
+| Reset         | Resets all of the above settings                                  | ~reset                     |
+
+## Utility
+
+| Command    | Description                                                                                                                         | Usage               |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| Invite     | Displays the link/QRCode to invite the bot to your server                                                                           | ~invite             |
+| Info       | Sends detailed server info from the client                                                                                          | ~info               |
+| Sleeptimer | Sets a sleep timer which will stop the bot / leave the channel, and kick you out of the channel after the hours of duration you set | ~sleeptimer \<time> |
+| DJ         | Displays the DJ role in the server.                                                                                                 | ~dj                 |
+| Help       | Displays a list of commands and how help.                                                                                           | ~help               |
+| Meme       | Displays a random meme from Reddit.                                                                                                 | ~meme               |
+| Ping       | Displays the latency of Acoustc at the current time.                                                                                | ~ping               |
+| Uptime     | Returns the amount of time the bot has been awake.                                                                                  | ~uptime             |
