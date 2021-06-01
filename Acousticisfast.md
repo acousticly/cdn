@@ -36,3 +36,30 @@ Acoustic doesn't compromise on sound quality. We deliver the the highest bitrate
 | Searchrelated    | Searches for similar songs in the current track and lets you pick            | ~mycustom add \<link\>|
 | Skip    | Skips to the next song in the queue.            | ~skip|
 | Status    | Displays the length and number of items in the queue            | ~status|
+
+### Filters
+```javascript
+"8d"
+"bassboost"
+"clear"
+"earrape"
+"echo"
+"flanger"
+"gate"
+"haas"
+"heavybass"
+"karaoke"
+"lightbass"
+"mcompand"
+"nightcore"
+"phaser"
+"pulsator"
+"purebass"
+"reverse"
+"subboost"
+"surronding"
+"treble"
+"tremolo"
+"vaporwave"
+"vibrato"
+```
